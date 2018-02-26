@@ -46,3 +46,26 @@ img {
   display: block;
   margin: 0 auto;
 }
+ li {
+  font-size: 16px;
+  line-height: 2;
+  color:#2988bc;
+  letter-spacing: 1px;
+}
+h2 {
+  color:#2988bc;
+}
+
+html{
+  background-image:url(../images/purple.jpg);
+}
+#button{
+  background-color: rgba(193, 00, 66, 0.5);
+  padding:30px;
+  margin:0 auto;
+width:50px;
+}
+#button:hover{
+  background-color: rgba(193, 66, 55, 0.5);
+cursor:pointer;
+}

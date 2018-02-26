@@ -12,13 +12,13 @@ myImage.onclick = function() {
 }
 
 //User NAme
-var myButton = document.querySelector('button');
+var myButton = document.getElementById('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Welcome to my site, , ' + myName;
+  myHeading.textContent = 'Welcome to my site,' + myName;
 }
 
 if(!localStorage.getItem('name')) {
